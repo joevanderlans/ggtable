@@ -1,0 +1,21 @@
+Package: ggtable
+Type: Package
+Title: Create ggplot-Style Tables
+Version: 0.0.1
+Author: person("Joe", "Vanderlans", "jvanderlans@cornerstone.com", c("aut", "cre"))
+Description: A tool for creating presentation-quality tables using ggplot-style
+    syntax.
+Encoding: UTF-8
+LazyData: true
+Require: R (>= 3.1)
+Imports:
+    ggplot2,
+    gtable,
+    grid,
+    gridExtra,
+    plyr
+RoxygenNote: 6.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
